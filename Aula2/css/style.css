@@ -1,0 +1,39 @@
+body {
+    background-color: #5c5ced;
+}
+
+.ex1 {
+    border: 6px solid #ffffff;
+}
+
+.ex2 {
+    border: 6px solid #ffffff;
+    border-width: medium;
+} 
+
+.ex3 {
+    border: 6px dotted #4d073e;
+}
+
+.ex4 {
+    border: dotted #4d074d;
+    border-width: thick;
+}
+
+.ex5 {
+    border: solid;
+    border-width: 20px 10px;
+    border-color: #0c0c80 #810e81 #92071e #f31111;
+}
+
+.ex6 {
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style: none;
+}
+
+.ex7 {
+    border: 6px solid #050c69;
+    border-radius: 20px;
+}
