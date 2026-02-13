@@ -1,0 +1,22 @@
+body {
+    background-color: #2fdf64;
+    color: aliceblue;
+}
+
+.ex1 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #012424;
+}
+
+.ex2 {
+    text-decoration-line: overline;
+    text-decoration-style: double;
+    text-decoration-color: #da0c0c;
+}
+
+.ex3 {
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+    text-decoration-color: #305709;
+}

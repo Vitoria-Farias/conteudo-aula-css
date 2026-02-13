@@ -1,0 +1,19 @@
+body {
+    background-color: grey;
+}
+
+.ex1 {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(71, 9, 112);
+}
+
+.div1 {
+    width: 680px;
+    background-color: mediumslateblue;
+}
+
+.ex2 {
+    max-width: 680px;
+    background-color: cornflowerblue;
+}
