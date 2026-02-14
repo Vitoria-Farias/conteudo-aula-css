@@ -1,0 +1,50 @@
+body {
+    background-color: #9197e6;
+}
+
+.link:link {
+    color: black;
+    background-color: blue;
+}
+
+.link:visited {
+    color: #11554f;
+    background-color: blueviolet;
+}
+
+.link:hover {
+    color: violet;
+    background-color: white;
+}
+
+.link:active {
+    color: aqua;
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    cursor: url(../img/bear.svg), auto;
+}
+
+.link-btn:link, .link-btn:visited {
+   /* background-color: #0a8b31;*/
+   background-color: transparent;
+   border: 3px solid #0a8b31;
+    color: white;
+    padding: 20px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;    
+}
+
+.link-btn:hover, .link-btn:active {
+    background-color: #6cdf55;
+    color: white;
+    border: 3px solid rgb(3, 51, 21);
+    transition: .5s;
+}
