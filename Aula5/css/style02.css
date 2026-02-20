@@ -1,0 +1,92 @@
+body{
+    background-color: midnightblue;
+    color: white;
+}
+/* Exemplo de Justify-content:center*/
+.ex1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: darkslategrey;
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(91, 101, 236);
+}
+
+/* Exemplo de Justify-content:Flex Start*/
+.ex2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    background-color: darkslategrey;
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(91, 101, 236);
+}
+
+/* Exemplo de Justify-content:Flex-end*/
+.ex3 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    background-color: darkslategrey;
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(91, 101, 236);
+}
+
+/* Exemplo de Justify-content:space-around*/
+.ex4 {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: darkslategrey;
+}
+
+.ex4 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(91, 101, 236);
+}
+
+/* Exemplo de Justify-content:space-between*/
+.ex5 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    background-color: darkslategrey;
+}
+
+.ex5 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(91, 101, 236);
+}
+
+/* Exemplo de Justify-content:space-evenly*/
+.ex6 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: darkslategrey;
+}
+
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(91, 101, 236);
+}
