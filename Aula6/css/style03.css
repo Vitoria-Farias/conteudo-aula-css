@@ -1,0 +1,168 @@
+body {
+    background-color: darkslategrey;
+    color: white;
+}
+
+/* Exemplo de Grid-template-column: auto auto auto */
+.ex1 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    background-color: darkblue;
+}
+
+.ex1 div {
+    border: 1px solid rgb(236, 226, 226);
+    height: 30px;
+    background-color: rgb(23, 92, 219);
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Exemplo de Grid-template-column com valores misturados */
+.ex2 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: 200px 80px auto;
+    background-color: darkblue;
+}
+
+.ex2 div {
+    border: 1px solid rgb(236, 226, 226);
+    height: 30px;
+    background-color: rgb(23, 92, 219);
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Exemplo de Grid-template-column com valores fracionados */
+.ex3 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid template columns: repeat(3, 1fr); */
+    background-color: darkblue;
+}
+
+.ex3 div {
+    border: 1px solid rgb(236, 226, 226);
+    height: 30px;
+    background-color: rgb(23, 92, 219);
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Exemplo de Grid-template-column com valores com minmax */
+.ex4 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: minmax(180px, 1fr) 150px 150px;
+    background-color: darkblue;
+}
+
+.ex4 div {
+    border: 1px solid rgb(236, 226, 226);
+    height: 30px;
+    background-color: rgb(23, 92, 219);
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Exemplo de Grid-template-rows com valores fixos */
+.ex5 {
+    display: grid;
+    padding: 5px;
+    gap: 5px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    background-color: darkblue;
+}
+
+.ex5 div {
+    border: 1px solid rgb(236, 226, 226);
+    background-color: rgb(23, 92, 219);
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+/* Exemplo de Grid column-gap */
+.ex6 {
+    display: grid;
+    padding: 5px;
+    column-gap: 20px;
+    grid-template-columns: auto auto auto;
+    background-color: darkblue;
+}
+
+.ex6 div {
+    border: 1px solid rgb(236, 226, 226);
+    background-color: rgb(23, 92, 219);
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+/* Exemplo de Grid row-gap */
+.ex7 {
+    display: grid;
+    padding: 5px;
+    row-gap: 40px;
+    grid-template-columns: auto auto auto;
+    background-color: darkblue;
+}
+
+.ex7 div {
+    border: 1px solid rgb(236, 226, 226);
+    background-color: rgb(23, 92, 219);
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+/* Exemplo de Grid gap */
+.ex8 {
+    display: grid;
+    padding: 5px;
+    gap: 40px;
+    grid-template-columns: auto auto auto;
+    background-color: darkblue;
+}
+
+.ex8 div {
+    border: 1px solid rgb(236, 226, 226);
+    background-color: rgb(23, 92, 219);
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+/* Exemplo de Grid gap */
+.ex9 {
+    display: grid;
+    padding: 5px;
+    gap: 10px 50px;
+    grid-template-columns: auto auto auto;
+    background-color: darkblue;
+}
+
+.ex9 div {
+    border: 1px solid rgb(236, 226, 226);
+    background-color: rgb(23, 92, 219);
+    align-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
